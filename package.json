@@ -1,0 +1,17 @@
+{
+  "name": "node-cluster-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch withoutCluster.js",
+    "dev1": "node --watch withCluster.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
